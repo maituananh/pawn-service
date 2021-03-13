@@ -23,7 +23,7 @@ public class AccountController {
     private final ObjectMapper mObjectMapper;
     private final IAccountService mIAccountService;
 
-    private final Logger logger = LoggerFactory.getLogger(UserController.class);
+    private final Logger logger = LoggerFactory.getLogger(AccountController.class);
 
     @Autowired
     public AccountController(ObjectMapper inObjectMapper, @Qualifier("accountService") IAccountService inIAccountService) {

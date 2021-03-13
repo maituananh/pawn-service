@@ -17,7 +17,11 @@ import java.util.Date;
 @Component
 public class JwtTokenProvider implements Serializable{
 
-    @Value("${USER}")
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	@Value("${USER}")
     private String USER;
     @Value("${SECRET}")
     private String SECRET;
